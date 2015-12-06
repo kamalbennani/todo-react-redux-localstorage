@@ -1,0 +1,49 @@
+{
+  "name": "todo-react-redux-localstorage",
+  "version": "1.0.0",
+  "description": "Todo Application using React, Redux and localStorage.",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build:webpack": "NODE_ENV=production webpack --config webpack.config.prod.js",
+    "build": "npm run clean && npm run build:webpack",
+    "start": "node server.js",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kamalbennani/todo-react-redux-localstorage.git"
+  },
+  "author": "Kamal Bennani <kamalbouchboy1@hotmail.fr> (http://github.com/kamalbennani)",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/kamalbennani/todo-react-redux-localstorage/issues"
+  },
+  "homepage": "https://github.com/kamalbennani/todo-react-redux-localstorage",
+  "dependencies": {
+    "classnames": "^2.1.2",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-redux": "^3.0.0",
+    "redux": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel": "^5.5.8",
+    "babel-core": "^5.6.18",
+    "babel-eslint": "^3.1.15",
+    "babel-loader": "^5.1.4",
+    "eslint": "^0.23",
+    "eslint-config-airbnb": "0.0.6",
+    "eslint-plugin-react": "^2.3.0",
+    "expect": "^1.6.0",
+    "mocha": "^2.2.5",
+    "mocha-jsdom": "^1.0.0",
+    "node-libs-browser": "^0.5.2",
+    "raw-loader": "^0.5.1",
+    "react-hot-loader": "^1.3.0",
+    "redux-devtools": "^2.1.5",
+    "style-loader": "^0.12.3",
+    "todomvc-app-css": "^2.0.1",
+    "webpack": "^1.9.11",
+    "webpack-dev-server": "^1.9.0"
+  }
+}
